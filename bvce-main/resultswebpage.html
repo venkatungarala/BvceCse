@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('resultbackground.png.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ffffff;
+            text-align: center;
+            height: 100vh;
+        }
+
+        /* Dim overlay effect */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Dim light effect */
+            z-index: -1; /* Keeps the overlay behind the content */
+        }
+
+        h1 {
+            background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent background for header */
+            color: white;
+            padding: 20px 0;
+            margin: 0;
+            box-shadow: 0 4px 6px rgb(19, 160, 106);
+        }
+
+        .results-container {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .results-link {
+            background-color: #007BFF;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .results-link:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 600px) {
+            .results-link {
+                font-size: 14px;
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Dim Overlay -->
+    <div class="overlay"></div>
+
+    <h1>Results</h1>
+
+    <div class="results-container">
+        <h2>View Your Results</h2>
+        <h3>Click the link below to view or download your results for all semesters:</h3>
+        <h2><a href="https://www.bvcecautonomous.com/SBLogin.aspx" class="results-link" target="_blank">View Results</a></h2>
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester Notes</title>
+    <!--<link rel="stylesheet" href="styles.css">-->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            margin: 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .overview-container, .semester-container {
+            padding: 20px;
+            margin: 20px;
+        }
+        .overview {
+            background: #f8f9fa;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+        .overview h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .overview p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .semester {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            border: none;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .semester:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+        }
+        .semester h2 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .semester a {
+            display: block;
+            margin: 10px auto;
+            padding: 12px 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #007BFF;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            text-align: center;
+            max-width: 150px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .semester a:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+                padding: 15px 0;
+            }
+            .overview h2 {
+                font-size: 20px;
+            }
+            .overview p {
+                font-size: 14px;
+            }
+            .semester h2 {
+                font-size: 18px;
+            }
+            .semester a {
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+        }
+    </style>
+  
+</head>
+<body>
+    <h1>BVC ECE ALL SEMISTER NOTES</h1>
+
+    <!-- Course Overview Section -->
+    <div class="overview-container">
+        <div class="overview">
+            <h2>Course Overview Syllabus</h2>
+            <p>
+                This course provides comprehensive knowledge on various topics, including digital electronics, communication systems. The course is designed for students pursuing a B.Tech degree in Electronics and Communication Engineering, preparing them for real-world challenges in technology and innovation.
+            </p>
+        </div>
+    </div>
+
+    <!-- Semester Notes Section -->
+    <div class="semester-container">
+        <div class="semester">
+            <h2>whole semister overview</h2>
+            <a href="assets/BR20_CSE_CS&Syllabus.pdf" target="_blank">overall pdf</a>
+        </div>
+        <div class="semester">
+            <h2>Semester 1</h2>
+            <a href="notes\sem 1\LADE.pdf" target="_blank">Linear Algebra & Differential Equations</a>
+            <a href="notes\sem 1\applied physics.pdf" target="_blank">Applied Physics</a>
+            <a href="notes\sem 1\engineering drawing.pdf" target="_blank">Engineering Drawing</a>
+            <a href="notes\sem 1\c & ds.pdf" target="_blank">Programming for Problem Solving Using C</a>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

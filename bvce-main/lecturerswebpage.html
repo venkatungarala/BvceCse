@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Members - BVC ECE Department</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Mobile menu styling */
+        .hamburger {
+            display: none;
+            font-size: 24px;
+            cursor: pointer;
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        @media screen and (max-width: 768px) {
+            .hamburger {
+                display: block;
+            }
+            .navbar ul {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                background: #333;
+                text-align: center;
+            }
+            .navbar ul.active {
+                display: flex;
+            }
+            .navbar ul li {
+                padding: 10px;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+
+   <!-- Header -->
+   <div class="sticky-container">
+    <header>
+        <img src="assets/ttttt.jpg" alt="College Logo" class="logo">
+        <div class="college-name">
+            BONAM VENKATA CHALAMAYYA ENGINEERING COLLEGE (ODALAREVU)
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#vision and mission">Vision and Mission</a></li>
+            <li><a href="#Faculty">Faculty</a></li>
+            <li><a href="#Labs">Our Labs</a></li>
+            <li><a href="#Study Materials">Study Materials</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#Queries or Suggestions">Queries</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- Main Content -->
+
+    <!-- Faculty Members Grid -->
+    <div class="faculty-container">
+        <!-- Faculty Member 1 -->
+        <div class="faculty-card">
+            <img src="assets/Hodsir.webp" alt="Faculty 1">
+            <h3>Dr. Meerasharif Sheik</h3>
+            <p>PROFESSOR AND HOD. M.TECH,PHD</p>
+        </div>
+
+
+        <!-- Faculty Member 4 -->
+        <div class="faculty-card">
+            <img src="assets/bnr sir.jpg" alt="Faculty 4">
+            <h3>Mr.BODAPATI NARASIMHARAO</h3>
+            <p>ASSOCIATE PROFESSOR,M.TECH</p>
+        </div>
+        <!-- Faculty Member 4 -->
+        <div class="faculty-card">
+            <img src="assets/A.Priyanka .png" alt="Faculty 4">
+            <h3>Ms.AINAGADDA PRIYANKA</h3>
+            <p>ASSOCIATE PROFESSOR,M.TECH</p>
+        </div>
+
+        
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 BVC ECE Department. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
